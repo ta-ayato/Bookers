@@ -1,0 +1,108 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.index {
+  width: 100%;
+}
+
+.books-table {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+
+th {
+  padding-bottom: 1px;
+}
+
+td {
+  text-align: center;
+  padding-bottom: 1px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.title {
+  width: 25%;
+}
+
+.body {
+  width: 45%;
+}
+
+
+
+
+.action {
+  width:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new {
+  margin-left: 5%;
+
+}
+
+.new-content {
+}
+
+.submit {
+  margin-top: 3px;
+}
+
+.new h2 {
+  padding-bottom: 5px;
+}
+
+
+
+
+.show-action, .edit-action {
+  display: flex;
+}
+
+.show-edit {
+  margin-left: 5%;
+  margin-right: 1%;
+}
+
+.show-back {
+  margin-left: 0.3%;
+}
+
+
+
+.edit {
+  margin-left: 5%;
+
+}
+
+.edit h1 {
+  padding-left: 0%;
+}
+
+.edit-show {
+  margin-left: 0;
+  margin-right: 1%;
+}
+
+.edit-back {
+  margin-left: 0.3%;
+}
+
+.edit-action {
+  padding-top: 8px;
+}

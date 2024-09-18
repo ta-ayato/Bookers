@@ -1,0 +1,7 @@
+<p><span>Title:</span> <%= @book.title %></p>
+<p><span>Body:</span> <%= @book.body %></p>
+<div class="show-action">
+  <div class="show-edit"><%= link_to "Edit", "/books/#{params[:id]}/edit" %></div>
+  |
+  <div class="show-back"><%= link_to "Back", "/books" %></div>
+</div>
